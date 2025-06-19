@@ -1,0 +1,4 @@
+CREATE DATABASE Test1;
+CREATE TABLE student(id int,name varchar(20),mark int,department varchar(20),section varchar(20));
+INSERT into student VALUES(1,"Dharsh",85,"BCA","A"),(2,"Deva Dharshini",86,"BCA","A"),(3,"krithi",90,"BCA","A");
+SELECT * from student;
